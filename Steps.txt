@@ -1,0 +1,4 @@
+1. Create a Repository in Git Hub
+2. Clone the repository to your local system.
+3. You would be able to see the folder created in the name of the repository
+4. Navigate to that folder, you should be able to see readme file, if you have created during the creation of the repository
