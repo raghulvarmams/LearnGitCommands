@@ -2,3 +2,7 @@
 2. Clone the repository to your local system.
 3. You would be able to see the folder created in the name of the repository
 4. Navigate to that folder, you should be able to see readme file, if you have created during the creation of the repository
+5. Git Add -- To add the file (Working Folder)
+6. Git Commit -- To commit the changes to Local repository (Staging Environment)
+7. Git Push -- To push the changes to the remote repository (Remote repository)
+8. Git Log to view all the changes made 
