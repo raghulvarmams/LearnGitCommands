@@ -6,3 +6,7 @@
 6. Git Commit -- To commit the changes to Local repository (Staging Environment)
 7. Git Push -- To push the changes to the remote repository (Remote repository)
 8. Git Log to view all the changes made 
+
+--- To ignore Files
+9. create a ignore file either in windows explorer or in command prompt
+10. command to do in cmd is "touch .gitignore"
