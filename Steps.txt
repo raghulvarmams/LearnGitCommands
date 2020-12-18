@@ -25,3 +25,7 @@
 16. Git Branch BranchName -- Creates a new branch with the branch name provided
 17. Git Checkout BranchName -- Focus is now moved to the new Branch, now you can do the required changes to the code.
 
+18. Create a branch and checkout in one go: git checkout -b "Branch Name"
+19. To delete a branch go to another branch and then 
+     git branch -d "Branch Name".
+
