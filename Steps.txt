@@ -10,3 +10,5 @@
 --- To ignore Files
 9. create a ignore file either in windows explorer or in command prompt
 10. command to do in cmd is "touch .gitignore"
+
+-- Changes Made to main branch after creating "New Branch one", and after that we will merge both the branches
