@@ -10,3 +10,16 @@
 --- To ignore Files
 9. create a ignore file either in windows explorer or in command prompt
 10. command to do in cmd is "touch .gitignore"
+
+--- Head
+11. Head is the reference to the recent commit.
+12. Git Show head
+13. To get the differnce between two commits
+    git difftool "Old version" "New version"
+	git difftool Head~2 Head~1 [Head -- Head~1 -- Head~2 -- Head~3 ....]
+
+--- Branches
+14. Branches are used when a new feature needs to be added or doing some experimental activites with out affecting the original branch
+15. Git Branch -- shows the available branches
+16. Git Branch BranchName -- Creates a new branch with the branch name provided
+17. Git Checkout BranchName -- Focus is now moved to the new Branch, now you can do the required changes to the code.
