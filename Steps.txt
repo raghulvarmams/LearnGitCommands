@@ -29,3 +29,32 @@
 19. To delete a branch go to another branch and then 
      git branch -d "Branch Name".
 
+-- Merge
+Merge is an operation to integrate changes from one branch to another branch by adding a new commit
+20. After creating a new branch and working on it, you need to merge with the main branch
+21. Checkout the main branch, then "git merge BranchName"
+22. If files does not have the same line changes, it automatically merges, if changes are on the same line then auto merge does not work, so we need to merge it manually.
+23. After merging manually add that file and commit the changes.
+
+tips: git log --all --decorate --oneline
+      git branches --graph --oneline
+
+-- Rebase
+Rebase is an operation to integrate changes from one branch to another. It is an alternative to the Merge command.
+24. git rebase main -- is the syntax to rebase the master. This is merge the changes of current branch with the main branch
+Benefits:
+Unnecessary merge history
+
+some times it can be dangerous, dont do rebase for Master brances
+
+-- Undo/ Revert changes
+25. if the change is only in local work area and want to undo, just go for "git checkout -- filename" if more files then "git checkout -- ."
+26. if changes are commited, then use "git revert commitId" or "git revert -n commitId"
+difference between  with -n and with out is, with out n will reset and commit, with -n will only reset and we will have to explicitly commit the changes
+27. Reset, will remove all the commits will the specified version, "get reset CommitId", it is very powerful, and also dangerous
+
+
+
+
+
+
